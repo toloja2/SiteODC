@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphique Design pour Débutants | eBook Professionnel</title>
+    <meta name="description"
+        content="Découvrez l'univers du design graphique avec notre eBook complet pour débutants. Apprenez les bases, les outils et les stratégies pour réussir.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                Graphique<span>Design</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#welcome">Bienvenue</a></li>
+                            <li><a class="dropdown-item" href="#why-learn">Pourquoi Apprendre</a></li>
+                            <li><a class="dropdown-item" href="#basics">Les Bases</a></li>
+                            <li><a class="dropdown-item" href="#strategic-roles">Rôles Stratégiques</a></li>
+                            <li><a class="dropdown-item" href="#tools">Outils</a></li>
+                            <li><a class="dropdown-item" href="#take-action">Passer à l'Action</a></li>
+                            <li><a class="dropdown-item" href="#future">Construire Votre Avenir</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <form class="search-form d-flex align-items-center">
+                    <button type="submit" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <input type="text" class="search-input" placeholder="Rechercher...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Navigation -->
+    <div class="page-nav d-none d-lg-block">
+        <div class="container">
+            <div class="page-nav-links">
+                <a href="#welcome" class="page-nav-link">Bienvenue</a>
+                <a href="#why-learn" class="page-nav-link">Pourquoi Apprendre</a>
+                <a href="#basics" class="page-nav-link">Les Bases</a>
+                <a href="#strategic-roles" class="page-nav-link">Principes Clés</a>
+                <a href="#tools" class="page-nav-link">Outils</a>
+                <a href="#take-action" class="page-nav-link">Passer à l'Action</a>
+                <a href="#future" class="page-nav-link">Votre Avenir</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header id="home" class="main-header">
+        <div class="container">
+            <div class="header-content text-center">
+                <h1 class="header-title fade-in">Graphique Design pour <span class="heading-accent">Débutants</span>
+                </h1>
+                <p class="header-subtitle fade-in">Maîtrisez les fondamentaux du design graphique avec notre guide
+                    complet. De la théorie à la pratique, devenez un designer compétent en 30 jours.</p>
+                <a href="#take-action" class="btn btn-primary btn-lg fade-in">Télécharger l'eBook Maintenant</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Welcome Page -->
+    <section id="welcome" class="page-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="section-title">Bienvenue dans l'Univers du <span class="heading-accent">Design
+                            Graphique</span></h2>
+                    <p class="lead">Le design graphique est bien plus qu'une simple création esthétique. C'est un
+                        langage visuel qui communique des idées, résout des problèmes et influence les perceptions.</p>
+                    <p>Dans cet eBook, nous vous guiderons pas à pas à travers les principes fondamentaux, les
+                        techniques essentielles et les outils indispensables pour débuter votre parcours dans le design
+                        graphique.</p>
+                    <p>Que vous souhaitiez créer une identité visuelle pour votre entreprise, concevoir des supports
+                        marketing percutants ou simplement exprimer votre créativité, ce guide vous fournira les bases
+                        solides dont vous avez besoin.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="feature-title">Créativité Structurée</h3>
+                        <p>Apprenez à canaliser votre créativité avec des méthodes et des processus éprouvés qui
+                            garantissent des résultats professionnels à chaque projet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Learn Today -->
+    <section id="why-learn" class="page-section why-learn-section">
+        <div class="container">
+            <h2 class="section-title">Pourquoi Apprendre le Design Graphique <span
+                    class="heading-accent">Aujourd'hui</span>?</h2>
+            <p class="section-subtitle text-center">Dans un monde numérique en constante évolution, les compétences en
+                design graphique sont plus précieuses que jamais.</p>
+
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="feature-title">Demande Croissante</h3>
+                        <p>Les entreprises recherchent activement des designers compétents pour améliorer leur présence
+                            numérique et leurs supports marketing.</p>
+                        <ul class="benefit-list">
+                            <li>+35% d'offres d'emploi en design</li>
+                            <li>Salaires compétitifs</li>
+                            <li>Opportunités freelance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3 class="feature-title">Polyvalence Professionnelle</h3>
+                        <p>Le design graphique s'applique à tous les secteurs : marketing, communication, développement
+                            web, édition, et bien plus encore.</p>
+                        <ul class="benefit-list">
+                            <li>Compétences transférables</li>
+                            <li>Indépendance professionnelle</li>
+                            <li>Création de votre propre marque</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="feature-title">Expression Créative</h3>
+                        <p>Transformez vos idées en réalisations visuelles concrètes. Le design vous permet de donner
+                            vie à vos concepts et de partager votre vision avec le monde.</p>
+                        <ul class="benefit-list">
+                            <li>Développement personnel</li>
+                            <li>Satisfaction créative</li>
+                            <li>Impact visuel mesurable</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Basics Page -->
+    <section id="basics" class="page-section">
+        <div class="container">
+            <h2 class="section-title">Les <span class="heading-accent">Bases</span> du Design Graphique</h2>
+            <p class="section-subtitle">Maîtrisez les principes fondamentaux qui sous-tendent tout design réussi, quelle
+                que soit votre spécialisation future.</p>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-shapes"></i>
+                        </div>
+                        <h3 class="feature-title">Théorie des Couleurs</h3>
+                        <p>Comprenez la psychologie des couleurs, les harmonies colorées et comment créer des palettes
+                            qui communiquent efficacement.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-font"></i>
+                        </div>
+                        <h3 class="feature-title">Typographie</h3>
+                        <p>Apprenez à sélectionner et combiner les polices pour créer une hiérarchie visuelle et
+                            améliorer la lisibilité.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-th"></i>
+                        </div>
+                        <h3 class="feature-title">Composition & Espace</h3>
+                        <p>Maîtrisez l'équilibre, l'alignement, la proximité et le contraste pour créer des designs
+                            organisés et esthétiques.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3 class="feature-title">Traitement d'Image</h3>
+                        <p>Découvrez les bases de la retouche photo, de l'optimisation des images et de la création
+                            d'illustrations vectorielles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic Roles -->
+    <section id="strategic-roles" class="page-section why-learn-section">
+        <div class="container">
+            <h2 class="section-title">Principes <span class="heading-accent">Clés</span> du Design Graphique</h2>
+            <p class="section-subtitle text-center">Ces trois règles d'or transformeront instantanément tes créations.
+                Ce sont les secret des pros rélévés</p>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="feature-box">
+                        <h3 class="feature-title">Alignement</h3>
+                        <p>La base d'une mise en page propre et professionnelle. <br> Aligne tes elements pour créer de
+                            l'ordre vusiel et guider naturellement le regard. </p>
+                        <div class="mt-4">
+                            <h5>Éléments clés :</h5>
+                            <ul class="benefit-list">
+                                <li>Alignement à gauche / Droite</li>
+                                <li>Alignement centré / justifié</li>
+                                <li>Grille (Grid system)</li>
+                                <li>Règle d’or pour débutant</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="feature-box">
+                        <h3 class="feature-title">Contraste</h3>
+                        <p>Ton outil pour créer de la hiérarchie et attirer l’attention là où tu le souhaites. Joue avec
+                            les tailles, les couleurs et les épaisseurs ! </p>
+                        <div class="mt-4">
+                            <h5>Compétences essentielles :</h5>
+                            <ul class="benefit-list">
+                                <li>Différencier les éléments importants</li>
+                                <li>Jouer avec les tailles, couleurs et épaisseurs</li>
+                                <li>Mettre en valeur les titres et appels à l’action</li>
+                                <li>Attirer l’attention sans surcharger</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="feature-box">
+                        <h3 class="feature-title">Cohérence</h3>
+                        <p>L’harmonie qui unit tes designs. Reste fidèle à ta palette de couleurs et à tes choix
+                            typographiques pour un résultat pro et mémorable.</p>
+                        <div class="mt-4">
+                            <h5>Compétences essentielles :</h5>
+                            <ul class="benefit-list">
+                                <li>Maintenir une identité visuelle uniforme</li>
+                                <li>Choisir et respecter une palette de couleurs</li>
+                                <li>Harmoniser les typographies</li>
+                                <li>Répéter les styles graphiques</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Tools Page -->
+    <section id="tools" class="page-section">
+        <div class="container">
+            <h2 class="section-title">Outils pour <span class="heading-accent">Commencer Rapidement</span></h2>
+            <p class="section-subtitle">Découvrez les outils essentiels, des plus accessibles aux plus professionnels,
+                pour lancer votre pratique du design graphique.</p>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="tool-card">
+                        <div class="tool-img"
+                            style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photososh_CC_icon.svg.png');">
+                        </div>
+                        <div class="tool-content">
+                            <h4>Adobe Creative Suite</h4>
+                            <p>La suite professionnelle incontournable : Photoshop, Illustrator, InDesign pour des
+                                résultats d'excellence.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-warning text-dark">Professionnel</span>
+                                <span class="badge bg-secondary">Abonnement</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="tool-card">
+                        <div class="tool-img" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;"></div>
+                        <div class="tool-content">
+                            <h4>Figma</h4>
+                            <p>Outil de design d'interface collaboratif en ligne, idéal pour le prototypage et le design
+                                d'UI/UX.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary">Gratuit</span>
+                                <span class="badge bg-secondary">Collaboratif</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="tool-card">
+                        <div class="tool-img" style=" background-image: url('https://logo.svgcdn.com/devicon/canva-original.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;"></div>
+                        <div class="tool-content">
+                            <h4>Canva</h4>
+                            <p>Plateforme de design graphique simplifiée, parfaite pour les débutants et les créations
+                                rapides.</p>
+                            <div class="mt-3">
+                                <span class="badge bg-primary">Gratuit</span>
+                                <span class="badge bg-success">Débutant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Take Action Page -->
+    <section id="take-action" class="page-section why-learn-section text-center">
+        <div class="container">
+            <h2 class="section-title center">Passez à l'<span class="heading-accent">Action</span> Dès Maintenant</h2>
+            <p class="section-subtitle center mx-auto">Téléchargez notre eBook complet et commencez votre voyage dans le
+                design graphique dès aujourd'hui.</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h3 class="feature-title">"Graphique Design pour Débutants" - Édition Complète</h3>
+                        <p class="lead">Notre eBook de 250 pages couvre tout ce dont vous avez besoin pour maîtriser les
+                            fondamentaux du design graphique et créer vos premiers projets professionnels.</p>
+
+                        <div class="row mt-5">
+                            <div class="col-md-6 mb-4">
+                                <h5>Ce que vous recevrez :</h5>
+                                <ul class="benefit-list text-start">
+                                    <li>7 chapitres complets avec exercices pratiques</li>
+                                    <li>50+ exemples de designs analysés</li>
+                                    <li>15 templates professionnels réutilisables</li>
+                                    <li>Accès à la communauté des lecteurs</li>
+                                    <li>Mises à jour gratuites pendant 1 an</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="p-4 bg-light rounded">
+                                    <h4 class="text-primary">Téléchargement Instantané</h4>
+                                    <p><strong>Format :</strong> PDF, EPUB, MOBI</p>
+                                    <p><strong>Pages :</strong> 50</p>
+                                    <p><strong>Langue :</strong> Français</p>
+                                    <p><strong>Niveau :</strong> Débutant à Intermédiaire</p>
+                                    <h3 class="mt-3 text-primary">50 000 Ariary <small
+                                            class="text-muted"><del>150 000Ar</del></small></h3>
+                                    <a href="#contact" class="btn btn-primary btn-lg mt-3 w-100">Obtenir l'eBook
+                                        Maintenant </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Build Your Future -->
+    <section id="future" class="page-section">
+        <div class="container">
+           <h2 class="section-title">Construisez Votre  <span class="heading-accent">Avenir</span>en Design Graphique</h2>
+            <!-- <h2 class="section-title text-center">Construisez Votre <span class="heading-accent">Avenir</span> en Design
+                Graphique</h2> -->
+            <p class="section-subtitle text-center">Le design graphique ouvre des portes vers des carrières
+                passionnantes et évolutives. Découvrez comment transformer votre passion en profession.</p>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="feature-box">
+                        <h3 class="feature-title">Parcours Professionnels</h3>
+                        <p>Explorez les différentes voies que vous pouvez emprunter avec des compétences en design
+                            graphique :</p>
+                        <ul class="benefit-list">
+                            <li><strong>Designer Graphique</strong> - Création d'identités visuelles et supports
+                                print/digitaux</li>
+                            <li><strong>UI/UX Designer</strong> - Conception d'interfaces et d'expériences utilisateur
+                            </li>
+                            <li><strong>Directeur Artistique</strong> - Supervision de la direction créative</li>
+                            <li><strong>Freelance</strong> - Indépendance et diversité de projets</li>
+                            <li><strong>Enseignant/Formateur</strong> - Partager vos connaissances</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="feature-box">
+                        <h3 class="feature-title">Prochaines Étapes</h3>
+                        <p>Notre eBook est votre point de départ. Voici comment continuer votre progression :</p>
+                        <ul class="benefit-list">
+                            <li><strong>Portfolio</strong> - Commencez à créer vos premiers projets</li>
+                            <li><strong>Réseautage</strong> - Connectez-vous avec d'autres designers</li>
+                            <li><strong>Spécialisation</strong> - Approfondissez un domaine spécifique</li>
+                            <li><strong>Formation continue</strong> - Restez à jour avec les nouvelles tendances</li>
+                            <li><strong>Projets réels</strong> - Cherchez des opportunités pour appliquer vos
+                                compétences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="page-section contact-section">
+        <div class="container">
+            <h2 class="section-title">Contactez-<span class="heading-accent">Nous</span></h2>
+            <p class="section-subtitle text-center">Des questions sur notre eBook? Besoin d'informations
+                supplémentaires? Notre équipe est là pour vous aider.</p>
+
+            <div class="row">
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="contact-form">
+                        <h3 class="mb-4">Formulaire de Contact</h3>
+                        <form id="contactForm" action="https://formsubmit.co/tolojaranarijaonina2@gmail.com"
+                            method="POST" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Nom complet *</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Adresse email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Sujet *</label>
+                                <select class="form-select" id="subject" name="Sujet" required>
+                                    <option value="" selected disabled>Sélectionnez un sujet</option>
+                                    <option value="question">Question sur l'eBook</option>
+                                    <option value="technical">Problème technique</option>
+                                    <option value="partnership">Partenariat</option>
+                                    <option value="other">Autre</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="newsletter">
+                                <label class="form-check-label" for="newsletter">Je souhaite recevoir des mises à jour
+                                    et des conseils en design graphique</label>
+                            </div>
+
+                            <input type="hidden" name="_subject" value="Nouveau message">
+                            <input type="hidden" name="_template" value="box">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://toloja2.github.io/SiteEbook">
+
+                            <button type="submit" class="btn btn-primary btn-lg w-100">Envoyer le message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="mb-4">
+                        <div class="trust-badge">
+                            <div class="trust-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Garantie Satisfait ou Remboursé</h4>
+                            <p>Vous avez 30 jours pour découvrir notre eBook. Si vous n'êtes pas satisfait, nous vous
+                                remboursons intégralement.</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="trust-badge">
+                            <div class="trust-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <h4>Paiement Sécurisé</h4>
+                            <p>Toutes les transactions sont cryptées et sécurisées. Nous ne stockons pas vos
+                                informations bancaires.</p>
+                        </div>
+                    </div>
+
+                    <div class="trust-badge">
+                        <div class="trust-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h4>Support Réactif</h4>
+                        <p>Notre équipe vous répond sous 24 heures maximum, du lundi au vendredi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h5>Graphique Design pour Débutants</h5>
+                    <p class="mt-3">Votre guide complet pour maîtriser les fondamentaux du design graphique et lancer
+                        votre carrière créative.</p>
+                    <div class="social-icons mt-4">
+                        <a href="https://www.facebook.com/toloja9" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#https://x.com/toloja2?t=sZSiBbUiTyEwy9ESoQM_Yg&s=09" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/toloja2" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/toloja9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=member_android"
+                            target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <h5>Pages</h5>
+                    <ul class="footer-links">
+                        <li><a href="#welcome">Bienvenue</a></li>
+                        <li><a href="#why-learn">Pourquoi Apprendre</a></li>
+                        <li><a href="#basics">Les Bases</a></li>
+                        <li><a href="#strategic-roles">Principes Clés</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
+                    <h5>Ressources</h5>
+                    <ul class="footer-links">
+                        <li><a href="#tools">Outils</a></li>
+                        <li><a href="#take-action">Passer à l'Action</a></li>
+                        <li><a href="#future">Votre Avenir</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5>Informations Légales</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Conditions générales</a></li>
+                        <li><a href="#">Politique de remboursement</a></li>
+                    </ul>
+                    <div class="mt-4">
+                        <p><i class="fas fa-envelope me-2"></i> tolojaranarijaonina2@gmail.com</p>
+                        <p><i class="fas fa-phone me-2"></i> +261 33 25 096 07</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2023 Graphique Design pour Débutants. Tous droits réservés.</p>
+                <p class="mt-2">Conçu avec <i class="fas fa-heart text-danger"></i> pour les futurs designers graphiques
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
