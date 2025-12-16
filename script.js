@@ -185,4 +185,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialiser la navigation active au chargement
     updateNavLinks();
     updatePageNav();
+
+    // date 
+    const today = new Date();
+    document.getElementById("datenow").innerHTML = today.getFullYear();
 });
