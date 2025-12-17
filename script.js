@@ -173,10 +173,6 @@ document.addEventListener('DOMContentLoaded', function() {
                         this.classList.remove('clicked');
                     }, 300);
                     
-                    // Simulation de téléchargement
-                    setTimeout(() => {
-                        alert('Téléchargement de l\'eBook "Graphique Design pour Débutants" démarré!\n\nDans une application réelle, cela déclencherait le processus de paiement et de téléchargement.');
-                    }, 800);
                 }
             });
         }
